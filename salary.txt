@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+main() {
+int wdays,earning,dinr,msalary,asalary;
+float bonus,tax,naincome,pdincome;
+
+cout<<"Enter your working days per month:";
+cin>>wdays;
+
+cout<<"Enter your salary per day in dolar:";
+cin>>earning;
+
+cout<<"Enter the amount of dolar in rupee:";
+cin>>dinr;
+
+msalary=wdays*earning*dinr;
+cout<<msalary<<endl;
+
+asalary=msalary*12+(masalry*2.5);
+cout<<asalary<<endl;
+
+}

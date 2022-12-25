@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+main() {
+int vp,fp;
+float vkg,fkg,totalincoin,totalinrp;
+
+cout<<"Enter amount of veg in kg:";
+cin>>vkg;
+
+cout<<"Enter amount of fruit in kg:";
+cin>>fkg;
+
+cout<<"Enter price of veg in coin:";
+cin>>pv;
+
+cout<<"Enter price of fruit in coin:";
+cin>>pf;
+
+totalincoin=(vkg*pv)+(fkg*pf);
+cout<<"total price in coin:"<<totalincoin<<endl;
+
+totalinrp=totalincoin/1.94;
+cout<<"total price in rupee:"<<totalinrp;
+
+
+
+
+
+
+}
